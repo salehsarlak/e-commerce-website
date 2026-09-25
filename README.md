@@ -11,8 +11,8 @@
 **A clean, elegant & fully responsive furniture store landing page**  
 Built with pure **HTML** & **CSS** — no frameworks, just beautiful design.
 
-[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-000000?style=for-the-badge&logo=github&logoColor=white)](https://salehsarlak.github.io/e-commerce-website/)
-[![GitHub](https://img.shields.io/badge/View_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/salehsarlak/e-commerce-website)
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-000000?style=for-the-badge&logo=github&logoColor=white)](https://salehsarlak.github.io/modern-furniture-store-website/)
+[![GitHub](https://img.shields.io/badge/View_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/salehsarlak/modern-furniture-store-website)
 
 </div>
 
@@ -21,12 +21,14 @@ Built with pure **HTML** & **CSS** — no frameworks, just beautiful design.
 ### ✨ Preview
 
 <p align="center">
-  <img src="assets/images/1.png" width="280" alt="Product Preview" />
-  <img src="assets/images/2.png" width="280" alt="Product Preview" />
-  <img src="assets/images/3.png" width="280" alt="Product Preview" />
+  <img src="screenshot.png" width="800" alt="Website Preview" />
 </p>
 
-> 🔥 **Tip:** After enabling GitHub Pages, replace the Live Demo link above with your real URL.
+<p align="center">
+  <a href="https://salehsarlak.github.io/modern-furniture-store-website/">
+    <img src="https://img.shields.io/badge/🚀_View_Live_Demo-4CAF50?style=for-the-badge&logo=github&logoColor=white" alt="Live Demo" />
+  </a>
+</p>
 
 ---
 
@@ -59,7 +61,7 @@ Built with pure **HTML** & **CSS** — no frameworks, just beautiful design.
 ### 📂 Project Structure
 
 ```bash
-e-commerce-website/
+modern-furniture-store-website/
 ├── assets/
 │   └── images/
 │       ├── products/     # Product images
@@ -69,6 +71,7 @@ e-commerce-website/
 │   ├── reset.css         # CSS reset
 │   └── style.css         # Main styles
 ├── index.html            # Main page
+├── screenshot.png        # Preview image
 └── README.md
 ```
 
@@ -78,7 +81,7 @@ e-commerce-website/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/salehsarlak/e-commerce-website.git
+git clone https://github.com/salehsarlak/modern-furniture-store-website.git
 ```
 
 2. Open `index.html` in your browser.
@@ -87,26 +90,17 @@ That's it! No build step required.
 
 ---
 
-### 🌐 Live Demo (GitHub Pages)
+### 🌐 Live Demo
 
-After enabling GitHub Pages:
+<p align="center">
+  <a href="https://salehsarlak.github.io/modern-furniture-store-website/">
+    <img src="https://img.shields.io/badge/🚀_Open_Live_Demo-000000?style=for-the-badge&logo=github&logoColor=white" alt="Live Demo" />
+  </a>
+</p>
 
-1. Go to **Settings → Pages**
-2. Select branch: `main` → folder: `/ (root)`
-3. Click **Save**
-4. Your site will be live at:
+**URL:** [https://salehsarlak.github.io/modern-furniture-store-website/](https://salehsarlak.github.io/modern-furniture-store-website/)
 
-```
-https://salehsarlak.github.io/e-commerce-website/
-```
-
----
-
-### 📸 Screenshots
-
-| Hero Section | Products | Blog |
-|--------------|----------|------|
-| <img src="assets/images/girl.png" width="250"/> | <img src="assets/images/products/1.png" width="180"/> | <img src="assets/images/posts/post1.png" width="200"/> |
+> After enabling GitHub Pages (Settings → Pages → Branch: main → /root), the site will be live at the link above.
 
 ---
 
