@@ -1,0 +1,212 @@
+/* ======================= import font ======================= */
+@import url('https://fonts.googleapis.com/css2?family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+
+/* ======================= main ======================= */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Sansation", sans-serif;
+    font-style: normal;
+    background-color: #EEF2FB;
+    position: relative;
+    /* shape */
+    >.effect{
+        position: absolute;
+        right: 0;
+        top: 250px;
+        z-index: -1;
+        &:nth-of-type(2){
+            left: 0;
+            top: 70%;
+        }
+
+    }
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    line-height: 0px;
+}
+
+
+p{
+    line-height: 26px;
+}
+
+
+/* ======================= components ======================= */
+
+/* explore more button */
+
+.exp{
+
+            margin-top: 100px;
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            padding: 25px 20px;
+            border-radius: 13px;
+            justify-content: center;
+            background-color: black;
+            color: white;
+            font-size: 15px;
+            width: fit-content;
+            transition: 0.4s;
+            &:hover{
+                margin-left: 20px;;
+            }
+        
+}
+
+/* ======================= portfolio ======================= */
+.portfolio{
+    margin-top: 70px;
+    width: 100%;
+    height: 100dvh;
+    background-color: #262626;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    >.my-content{
+        width: 60%;
+        background-color: #18181B;
+        border-radius: 12px;
+
+
+        >.pfp{
+            padding: 20px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 12px;
+            >img{
+                width: 240px;
+                border-radius: 50%;
+                padding: 17px 17px;
+                background-color: #262626;
+            }
+
+            >h3{
+                margin-top: 10px;
+                color: rgb(229 231 235);
+                font-size: 45px;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        
+            }
+
+            >span{
+                display: flex;
+                align-items: center;
+                gap: 5px;
+                color: #575656;
+            }
+
+            >p{
+                color: rgb(156 163 175);
+                width: 45%;
+                text-align: center;
+                font-size: 12px;
+            }
+
+        }
+
+        >.socials{
+            width: 100%;
+            margin: 0 auto;
+            display: flex;
+            gap: 25px;
+            justify-content: center;
+            align-items: center;
+            padding: 20px 20px;
+
+            >a{
+                cursor: pointer;
+                font-size: 30px;
+                color: #959595;
+                gap: 15px;
+                margin-bottom: 30px;
+                transition: 0.3s;
+                &:hover{
+                    color: white;
+                }
+            }
+
+        }
+
+        >.phone{
+            padding: 5px 20px 20px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            >span{
+                color: rgb(228 228 231);
+                padding: 12px 17px;
+                background-color: #262626;
+                border-radius: 20px;
+                font-size: 15px;
+                >i{
+                    color: #10b981;
+                    margin-left: 10px;
+                }
+            }
+
+            >a{
+                display: flex;
+                align-items: center;
+                gap: 12px;
+                color: white;
+                font-size: 14px;
+            }
+        }
+
+    }
+}
+
+/* ======================= portfolio responsive ======================= */
+@media screen and (max-width:420px){
+    .portfolio{
+        width: 100%;
+        height: fit-content;
+
+        >.my-content{
+            margin: 20px 0;
+            padding: 30px 10px 20px 10px;
+            width: 90%;
+
+           >.pfp{
+            >p{
+                width: 100%;
+                padding-inline: 15px;
+            }
+           }
+
+           >.phone{
+            flex-direction: column;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        }
+
+        
+
+    }
+
+
+}
