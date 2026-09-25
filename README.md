@@ -21,7 +21,7 @@ Built with pure **HTML** & **CSS** — no frameworks, just beautiful design.
 ### ✨ Preview
 
 <p align="center">
-  <img src="screenshot.png" width="800" alt="Website Preview" />
+  <img src="scr.png" width="800" alt="Website Preview" />
 </p>
 
 <p align="center">
@@ -71,7 +71,7 @@ modern-furniture-store-website/
 │   ├── reset.css         # CSS reset
 │   └── style.css         # Main styles
 ├── index.html            # Main page
-├── screenshot.png        # Preview image
+├── scr.png               # Preview image
 └── README.md
 ```
 
