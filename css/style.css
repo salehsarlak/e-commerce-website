@@ -20,11 +20,12 @@
     align-items: center;
     /* first div */
     >.first{
-        width: 20%;
+        text-align: start;
+        width: 10%;
     }
     /* second */
     >.second{
-        width: 80%;
+        width: 90%;
         display: flex;
         justify-content: end;
         align-items: center;
@@ -54,6 +55,7 @@
                     background-color: #c900c289;
                     position: absolute;
                     top: 20px;
+                    left: 0;
                 }
 
 
